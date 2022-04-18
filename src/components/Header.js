@@ -9,6 +9,7 @@ const Header = () => {
     return(
         <div>
             <h3>TYPE SOMETHING IN INPUTBOX</h3>
+            <h5>new comment added</h5>
             <input placeholder="type something..." onChange={onChange}/>
             {InputValue}
          </div> 
